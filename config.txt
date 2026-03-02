@@ -1,7 +1,0 @@
-colors:
-    #214413
-    #000000
-    #669350
-    #79B262
-    #ffffff
-font: Product sans
