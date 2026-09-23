@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Signatures – Side Street Food Service and Catering</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1a1a1a;
+      color: #fff;
+      font-family: 'Google Sans', 'Product Sans', Arial, sans-serif;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #211f20;
+      border-bottom: 1px solid #333;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    header img { height: 56px; width: auto; display: block; }
+    header h1 {
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+      line-height: 1.3;
+    }
+    header p {
+      font-size: 13px;
+      color: #aaa;
+      margin-top: 3px;
+    }
+
+    /* ── Hero preview ── */
+    .preview-section {
+      background: #211f20;
+      padding: 40px;
+      text-align: center;
+      border-bottom: 1px solid #2e2e2e;
+    }
+    .preview-section h2 {
+      font-size: 15px;
+      font-weight: 500;
+      color: #aaa;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .preview-section img {
+      max-width: 620px;
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 4px 24px rgba(0,0,0,.5);
+    }
+
+    /* ── Guide banner ── */
+    .guide-banner {
+      background: #2a2a2a;
+      border: 1px solid #3a3a3a;
+      border-radius: 8px;
+      margin: 36px 40px 0;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .guide-banner svg { flex-shrink: 0; }
+    .guide-banner p { font-size: 14px; color: #ccc; line-height: 1.5; }
+    .guide-banner a {
+      color: #7ab55f;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .guide-banner a:hover { text-decoration: underline; }
+
+    /* ── Staff grid ── */
+    main { padding: 32px 40px 60px; }
+    main h2 {
+      font-size: 13px;
+      font-weight: 500;
+      color: #777;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: #211f20;
+      border: 1px solid #2e2e2e;
+      border-radius: 8px;
+      padding: 20px 18px 16px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .15s, box-shadow .15s;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .card:hover {
+      border-color: #7ab55f;
+      box-shadow: 0 0 0 1px #7ab55f33;
+    }
+    .card .name {
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .card .role {
+      font-size: 12px;
+      color: #999;
+      line-height: 1.4;
+    }
+    .card .open {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #7ab55f;
+      font-weight: 500;
+    }
+
+    /* ── Footer ── */
+    footer {
+      background: #211f20;
+      border-top: 1px solid #2e2e2e;
+      text-align: center;
+      padding: 18px;
+      font-size: 12px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="assets/side street logo.png" alt="Side Street Food Service and Catering">
+    <div>
+      <h1>Email Signature Hub</h1>
+      <p>Side Street Food Service and Catering</p>
+    </div>
+  </header>
+
+  <section class="preview-section">
+    <h2>Signature Template Preview</h2>
+    <img src="assets/SSC Email Template v2.png" alt="SSC Email Signature Template v2">
+  </section>
+
+  <div class="guide-banner">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7ab55f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+    </svg>
+    <p>First time setting up your signature? Follow the step-by-step setup guide:&nbsp;
+      <a href="https://docs.google.com/document/d/12Tc5Kqwn3dNvfam5xgIuvMP7QAsOvuCc_o7_AmfQ_9A/edit?tab=t.0" target="_blank" rel="noopener">View Installation Guide →</a>
+    </p>
+  </div>
+
+  <main>
+    <h2>Staff Signatures</h2>
+    <div class="grid">
+
+      <a class="card" href="admin.html">
+        <span class="name">Administrative</span>
+        <span class="role">Administrative Assistant</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="ann.html">
+        <span class="name">Ann Bagwell</span>
+        <span class="role">Accounting Manager</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="arthur.html">
+        <span class="name">Arthur Bouvier</span>
+        <span class="role">Food Service Compliance Administrator</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="charlotte.html">
+        <span class="name">Charlotte Taylor</span>
+        <span class="role">Assistant Food Service Manager</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="cheryl.html">
+        <span class="name">Cheryl Wheaton</span>
+        <span class="role">Director of Catering</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="dennis.html">
+        <span class="name">Dennis Wheaton Jr</span>
+        <span class="role">Owner</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="heidi.html">
+        <span class="name">Heidi Amaker</span>
+        <span class="role">Assistant Food Service Manager</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="jabril.html">
+        <span class="name">Jabril Henry</span>
+        <span class="role">Human Resource Manager</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="mary.html">
+        <span class="name">Mary Williams</span>
+        <span class="role">Director of Operations</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="terry.html">
+        <span class="name">Terry Poole</span>
+        <span class="role">Kitchen Manager</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="trish.html">
+        <span class="name">Trish Clever</span>
+        <span class="role">Strategic Account Operations Manager</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+      <a class="card" href="victoria.html">
+        <span class="name">Victoria W.</span>
+        <span class="role">Office Manager</span>
+        <span class="open">Open Signature →</span>
+      </a>
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; Side Street Food Service and Catering &mdash; Internal Use Only
+  </footer>
+
+</body>
+</html>
